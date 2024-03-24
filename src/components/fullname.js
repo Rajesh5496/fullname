@@ -20,14 +20,14 @@ function Fullname(){
     return(
         <div>
             <h2>Full Name Display</h2>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label htmlFor="FirstName">First Name:</label>
                 <input id="FirstName" type="text" value={firstName} onChange={(event) => setFirstName(event.target.value)} required/>
                 <br />
                 <label htmlFor="LastName">Last Name:</label>
                 <input id="FirstName" type="text" value={lastName} onChange={(event) => setLastName(event.target.value)} required/>
                 <br />
-                <button type="submit" onClick={handleSubmit}>Submit</button>
+                <button type="submit">Submit</button>
                 
             </form>
             { (bool && <p>Full Name: {fullname}</p>)}
