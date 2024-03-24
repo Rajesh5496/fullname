@@ -13,7 +13,7 @@ function Fullname(){
         event.preventDefault(); // Prevent the default form submission behavior
         console.log('First Name:', firstName);
         console.log('Last Name:', lastName);
-        setfullname(firstName+lastName)
+        setfullname(firstName+" "+lastName)
         setbool(true)
     };
 
