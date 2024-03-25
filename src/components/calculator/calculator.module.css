@@ -1,0 +1,11 @@
+.buttondesign{
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.divcenter{
+    display: ruby-text;
+}
