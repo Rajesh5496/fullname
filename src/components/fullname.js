@@ -3,7 +3,7 @@ import styles from "./fullname.module.css"
 import { useState, useRef } from "react"
 
 function Fullname(){
-    // Ref = useRef()
+    
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
     const [fullname, setfullname] = useState('')
