@@ -52,7 +52,25 @@ function Selectdropdown() {
     return (
         <div>
             <p>Select Location</p>
-            <Select
+            <select onChange={handleChange1}>
+                <option value="" disabled>Select Country</option>
+                {allcountry.map((ele)=>(
+                    <option key={ele} value={ele}>{ele}</option>
+                ))}
+            </select>
+            <select onChange={handleChange2} disabled={!country}>
+                <option value="" disabled>Select State</option>
+                {allstate.map((ele)=>(
+                    <option key={ele} value={ele}>{ele}</option>
+                ))}
+            </select>
+            <select onChange={handleChange3} disabled={!state}>
+                <option value="" disabled>Select City</option>
+                {allcity.map((ele)=>(
+                    <option key={ele} value={ele}>{ele}</option>
+                ))}
+            </select>
+            {/* <Select
                 labelId="demo-simple-select-label"
                 id="demo-simple-select"
                 value={country}
@@ -98,7 +116,7 @@ function Selectdropdown() {
                     <MenuItem key={ele} value={ele}>{ele}</MenuItem>
                 ))}
 
-            </Select>
+            </Select> */}
             {city && <p>You selected <span>{city}</span>, {state}, {country}</p>}
         </div>
     )
