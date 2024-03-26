@@ -4,6 +4,7 @@ import Fullname from './components/fullname';
 import Counter from './components/counter';
 import Calculator from './components/calculator/calculator';
 import Login from './components/Login/login';
+import Selectdropdown from './components/selectdropdown/selectdropdown';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Fullname /> */}
       {/* <Counter /> */}
       {/* <Calculator /> */}
-      <Login />
+      {/* <Login /> */}
+      <Selectdropdown />
     </>
     
   );
