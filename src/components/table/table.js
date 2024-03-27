@@ -23,6 +23,7 @@ function Table() {
             setTabledata(response.data);
             setDatalength(response.data.length)
         }).catch((error) => {
+            alert(error)
             console.error(error)
         })
     }, [])
