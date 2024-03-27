@@ -6,6 +6,7 @@ import Calculator from './components/calculator/calculator';
 import Login from './components/Login/login';
 import Selectdropdown from './components/selectdropdown/selectdropdown';
 import Counterclass from './components/counterclass';
+import Table from './components/table/table';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Calculator /> */}
       {/* <Login /> */}
       {/* <Selectdropdown /> */}
-      <Counterclass />
+      {/* <Counterclass /> */}
+      <Table />
     </>
     
   );

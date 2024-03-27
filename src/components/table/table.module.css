@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: green;
+    color: white;
+    text-align: left;
+}
+
+td {
+    border-bottom: 1px solid grey;
+}
+
+.headingcss {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagbutton{
+    color: white;
+    background-color: green;
+    border: none;
+    width: auto;
+    height: 30px;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.pagnum{
+    color: white;
+    background-color: green;
+    border: none;
+    width: auto;
+    /* height: 30px; */
+    border-radius: 3px;
+    padding: 7px;
+}
