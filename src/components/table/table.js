@@ -23,7 +23,7 @@ function Table() {
             setTabledata(response.data);
             setDatalength(response.data.length)
         }).catch((error) => {
-            window.alert(error)
+            window.alert("failed to fetch data")
             console.error(error)
         })
     }, [])
