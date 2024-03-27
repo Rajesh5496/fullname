@@ -65,12 +65,14 @@ function Table() {
             </div>
             <div>
                 <table>
+                    
                     <tr>
                         <th>ID</th>
                         <th>Name</th>
                         <th>Email</th>
                         <th>Role</th>
                     </tr>
+                    <tbody>
                     {paginatedData.map((ele) => (
                         <tr>
                             <td>{ele.id}</td>
@@ -79,6 +81,7 @@ function Table() {
                             <td>{ele.role}</td>
                         </tr>
                     ))}
+                     </tbody>
                 </table>
             </div>
             <div className={styles.pagination}>
