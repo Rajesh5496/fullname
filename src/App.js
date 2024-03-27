@@ -5,6 +5,7 @@ import Counter from './components/counter';
 import Calculator from './components/calculator/calculator';
 import Login from './components/Login/login';
 import Selectdropdown from './components/selectdropdown/selectdropdown';
+import Counterclass from './components/counterclass';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Calculator /> */}
       {/* <Login /> */}
-      <Selectdropdown />
+      {/* <Selectdropdown /> */}
+      <Counterclass />
     </>
     
   );

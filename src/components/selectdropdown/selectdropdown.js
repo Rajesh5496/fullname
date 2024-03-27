@@ -52,19 +52,19 @@ function Selectdropdown() {
     return (
         <div>
             <p>Select Location</p>
-            <select onChange={handleChange1}>
+            <select className={styles.selectcss} onChange={handleChange1}>
                 <option value="" disabled>Select Country</option>
                 {allcountry.map((ele)=>(
                     <option key={ele} value={ele}>{ele}</option>
                 ))}
             </select>
-            <select onChange={handleChange2} disabled={!country}>
+            <select className={styles.selectcss} onChange={handleChange2} disabled={!country}>
                 <option value="" disabled>Select State</option>
                 {allstate.map((ele)=>(
                     <option key={ele} value={ele}>{ele}</option>
                 ))}
             </select>
-            <select onChange={handleChange3} disabled={!state}>
+            <select className={styles.selectcss} onChange={handleChange3} disabled={!state}>
                 <option value="" disabled>Select City</option>
                 {allcity.map((ele)=>(
                     <option key={ele} value={ele}>{ele}</option>
