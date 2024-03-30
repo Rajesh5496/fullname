@@ -8,6 +8,7 @@ import Selectdropdown from './components/selectdropdown/selectdropdown';
 import Counterclass from './components/counterclass';
 import Table from './components/table/table';
 import Weather from './components/weather/weather';
+import Spellcheck from './components/spellcheck/spellcheck';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <Selectdropdown /> */}
       {/* <Counterclass /> */}
       {/* <Table /> */}
-      <Weather />
+      {/* <Weather /> */}
+      <Spellcheck />
     </>
     
   );
