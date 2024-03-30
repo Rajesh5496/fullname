@@ -11,7 +11,7 @@ function Weather() {
 
     const handonclick = (() => {
         setLoading(true)
-        axios.get(`http://api.weatherapi.com/v1/current.json?q=${inputref.current.value}&key=1775ae95ee3e4d22b8372535230411`).then((response) => {
+        axios.get(`https://api.weatherapi.com/v1/current.json?q=${inputref.current.value}&key=1775ae95ee3e4d22b8372535230411`).then((response) => {
             
             console.log(response.data)
             setWeatherdata(response.data.current)
