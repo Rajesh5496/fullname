@@ -13,9 +13,9 @@ function Weather() {
         axios.get("http://api.weatherapi.com/v1/current.json?q=pune&key=1775ae95ee3e4d22b8372535230411").then((response) => {
             
             console.log(response.data)
-            setWeatherdata(response.data)
+            setWeatherdata(response.data.current)
             setLoading(false)
-        }).catch((error) => {
+        }).catch((error) => {                                                                 
             setLoading(false)
             alert("Failed to fetch weather data")
             console.log(error)
