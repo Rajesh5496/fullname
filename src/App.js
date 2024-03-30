@@ -10,6 +10,7 @@ import Table from './components/table/table';
 import Weather from './components/weather/weather';
 import Spellcheck from './components/spellcheck/spellcheck';
 import Dict from './components/dictionary/dictionary';
+import Sorttable from './components/sorttable/sorttable';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <Table /> */}
       {/* <Weather /> */}
       {/* <Spellcheck /> */}
-      <Dict />
+      {/* <Dict /> */}
+      <Sorttable />
     </>
     
   );
