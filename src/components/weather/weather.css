@@ -1,0 +1,54 @@
+.buttoncss{
+    margin-left: 10px;
+    background-color: #7abb7a;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.centercss{
+    display: flex;
+    justify-content: center;
+}
+
+.inputcss{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.gridcss{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fullscreen{
+    width: 100vw;
+    height: 100vh;
+}
+
+.weather-card{
+    width: 200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card-header {
+    display: ruby-text;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .humidity-info {
+    text-align: center;
+  }
+  
+  .humidity-value {
+    font-size: 24px;
+    margin: 0;
+  }

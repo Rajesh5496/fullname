@@ -7,6 +7,7 @@ import Login from './components/Login/login';
 import Selectdropdown from './components/selectdropdown/selectdropdown';
 import Counterclass from './components/counterclass';
 import Table from './components/table/table';
+import Weather from './components/weather/weather';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <Login /> */}
       {/* <Selectdropdown /> */}
       {/* <Counterclass /> */}
-      <Table />
+      {/* <Table /> */}
+      <Weather />
     </>
     
   );
