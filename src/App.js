@@ -9,6 +9,7 @@ import Counterclass from './components/counterclass';
 import Table from './components/table/table';
 import Weather from './components/weather/weather';
 import Spellcheck from './components/spellcheck/spellcheck';
+import Dict from './components/dictionary/dictionary';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Counterclass /> */}
       {/* <Table /> */}
       {/* <Weather /> */}
-      <Spellcheck />
+      {/* <Spellcheck /> */}
+      <Dict />
     </>
     
   );
