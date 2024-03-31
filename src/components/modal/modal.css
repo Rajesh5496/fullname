@@ -1,0 +1,19 @@
+.submit-button{
+   background-color: blue !important;
+   color: white; 
+   padding: 10px;
+   border: none;
+   border-radius: 5px
+}
+
+.centercss{
+    display: grid;
+    justify-content: center;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}

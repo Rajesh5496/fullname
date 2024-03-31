@@ -1,7 +1,8 @@
 import { Modal } from "@mui/material";
 import React from "react";
 import { useState } from "react";
-import styles from "./modal.module.css"
+// import styles from "./modal.module.css"
+import "./modal.css"
 import Modalpopup from "./modalpopup"
 
 function Modalform() {
@@ -62,9 +63,9 @@ function Modalform() {
 
 
     return (
-        <div className={styles.centercss}>
+        <div className="centercss">
             <h1>User Details Modal</h1>
-            <button className={styles["submit-button"]} type="button" onClick={handleOpen}>Open Form</button>
+            <button className="submit-button" type="button" onClick={handleOpen}>Open Form</button>
 
             <Modalpopup isOpen={open} onClose={handleClose}>
                 <div className="modal">
@@ -79,7 +80,7 @@ function Modalform() {
                             <input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} required /><br />
                             <label htmlFor="dob"><b>Date of Birth:</b></label><br />
                             <input id="dob" name="dob" type="date" value={formData.dob} onChange={handleChange} required /><br /><br />
-                            <button type="submit" className={styles["submit-button"]}>Submit</button>
+                            <button type="submit" className="submit-button">Submit</button>
                         </form>
                     </div>
                 </div>
