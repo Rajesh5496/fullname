@@ -65,26 +65,26 @@ function Modalform() {
         <div className={styles.centercss}>
             <h1>User Details Modal</h1>
             <button className={styles["submit-button"]} type="button" onClick={handleOpen}>Open Form</button>
-            <div className="modal">
-                <div className="modal-content">
-                    <Modalpopup isOpen={open} onClose={handleClose}>
-                        <>
-                            <h2>Fill Details</h2>
-                            <form onSubmit={handlesubmit}>
-                                <label htmlFor="username"><b>Username:</b></label><br />
-                                <input id="username" name="username" type="text" value={formData.username} onChange={handleChange} required /><br />
-                                <label htmlFor="email"><b>Email Address:</b></label><br />
-                                <input id="email" name="email" type="email" value={formData.email} onChange={handleChange} required /><br />
-                                <label htmlFor="phone"><b>Phone Number:</b></label><br />
-                                <input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} required /><br />
-                                <label htmlFor="dob"><b>Date of Birth:</b></label><br />
-                                <input id="dob" name="dob" type="date" value={formData.dob} onChange={handleChange} required /><br /><br />
-                                <button type="submit" className={styles["submit-button"]}>Submit</button>
-                            </form>
-                        </>
-                    </Modalpopup>
+
+            <Modalpopup isOpen={open} onClose={handleClose}>
+                <div className="modal">
+                    <div className="modal-content">
+                        <h2>Fill Details</h2>
+                        <form onSubmit={handlesubmit}>
+                            <label htmlFor="username"><b>Username:</b></label><br />
+                            <input id="username" name="username" type="text" value={formData.username} onChange={handleChange} required /><br />
+                            <label htmlFor="email"><b>Email Address:</b></label><br />
+                            <input id="email" name="email" type="email" value={formData.email} onChange={handleChange} required /><br />
+                            <label htmlFor="phone"><b>Phone Number:</b></label><br />
+                            <input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} required /><br />
+                            <label htmlFor="dob"><b>Date of Birth:</b></label><br />
+                            <input id="dob" name="dob" type="date" value={formData.dob} onChange={handleChange} required /><br /><br />
+                            <button type="submit" className={styles["submit-button"]}>Submit</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
+            </Modalpopup>
+
 
         </div>
 
