@@ -11,6 +11,7 @@ import Weather from './components/weather/weather';
 import Spellcheck from './components/spellcheck/spellcheck';
 import Dict from './components/dictionary/dictionary';
 import Sorttable from './components/sorttable/sorttable';
+import Modalform from './components/modal/modal';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <Weather /> */}
       {/* <Spellcheck /> */}
       {/* <Dict /> */}
-      <Sorttable />
+      {/* <Sorttable /> */}
+      <Modalform />
     </>
     
   );
