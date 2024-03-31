@@ -33,7 +33,7 @@ function Modalform() {
         // Phone number validation
         const phoneRegex = /^\d{10}$/;
         if (!phoneRegex.test(formData.phone)) {
-            alert("Please enter a 10-digit phone number.");
+            alert("Invalid phone number. Please enter a 10-digit phone number.");
             return;
         }
         // Perform form submission logic here
@@ -44,7 +44,7 @@ function Modalform() {
         // dobDate.setHours(0, 0, 0, 0);
         // currentDate.setHours(0, 0, 0, 0);
         if (dobDate > currentDate) {
-            alert("Date of birth cannot be a future date.");
+            alert("Invalid date of birth. Date of birth cannot be in the future.");
             return;
         }
 
