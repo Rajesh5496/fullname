@@ -6,7 +6,7 @@
    border-radius: 5px
 }
 
-.modal{
+.centercss{
     display: grid;
     justify-content: center;
 }
